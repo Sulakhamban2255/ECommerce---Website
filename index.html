@@ -117,7 +117,10 @@
                         <img style="height: 250px; width:150px; background-color:black" src="${i.image}" class="card-img-top" alt="${i.title}">
                         <div class="card-body">
                             <h6 class="card-title">${i.title}</h6>
-                            <p class="card-text">$${i.price}</p>
+                            <p class="card-text">${i.price}</p>
+                             <p class="card-text">Category : ${i.category}</p>
+                              <p class="card-text"> Rating : ${i.rating.rate}  </p>
+                              <span> count: ${i.rating.count} </span>
                           
                         </div>
                     </div>
